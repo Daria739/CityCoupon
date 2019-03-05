@@ -92,6 +92,8 @@ li {
   font-weight: 500;
   line-height: 0.97;
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 
@@ -115,6 +117,7 @@ color: #1a83d0;
 	border-left: 6px solid transparent;
 	border-right: 6px solid transparent;
     border-top: 7px solid #1a83d0;
+    margin-left: 5px;
     cursor: pointer;
 }
 
