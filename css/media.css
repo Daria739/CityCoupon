@@ -325,6 +325,10 @@
         color: #595858;
     }
     
+    .block-phone:before {
+        bottom: 25%;
+        left: 1px;
+    }
 
 
 
@@ -410,5 +414,10 @@
         padding-top: 3%;
         padding-bottom: 4%;
         
+    }
+
+    .block-phone:before {
+        bottom: 35%;
+        left: 2px;
     }
 }

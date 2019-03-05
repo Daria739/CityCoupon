@@ -289,6 +289,35 @@ background-color: #e1e1e1;
     display: flex;
 }
 
+.block-phone {
+    position: relative;
+}
+
+
+.block-phone:before {
+content: "+7";
+display: flex;
+align-items: center;
+justify-content: center;
+width: 50px;
+height: 50px;
+background-color: #f3f3f5;
+position: absolute;
+border-radius: 5px;
+bottom: 1px;
+left: 1px;
+border-right: 1px solid #cdcccc;
+
+
+
+font-size: 17px;
+font-weight: 300;
+line-height: 0.98;
+letter-spacing: -0.9px;
+text-align: left;
+color: #a2a2a2;
+}
+
 
 .first-block__desc-list-content {
     display: flex;
@@ -365,7 +394,9 @@ background-color: #e1e1e1;
     border-radius: 5px;
     padding-left: 1.25rem;
 }
-
+.block-input-phone {
+    padding-left: 17%;
+}
 
 .form__checkbox {
     display: flex;
