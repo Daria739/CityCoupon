@@ -5,6 +5,11 @@
         width: 100%;
     }
 
+
+    .logo-pic {
+        width: 80%;
+    }
+
     .first-block {
         height: 100%;
         box-shadow: none;
@@ -41,7 +46,7 @@
     }
 
     .header__contacts {
-        font-size: 17px;
+        font-size: 15px;
     }
 
     .first-block__content {
@@ -120,6 +125,11 @@
     .switcher__div {
         display: block;
         margin-bottom: 4%;
+        padding-left: 3%;
+    }
+
+    .switcher__text {
+        font-size: 17px;
     }
 
     .block-form {
@@ -189,29 +199,36 @@
         content: "";
         width: 80px;
         height: 80px;
+        margin-left: 5%;
+        margin-top: 4%;
 
     }
 
     .payment__mobile-item-cards:before {
+        content: "";
     background-image: url('../img/credit-cards.png');
     background-repeat: no-repeat;
 
     }
 
-    .payment__mobile-item-balance {
+    .payment__mobile-item-balance:before {
         background-image: url('../img/balance.png');
+        background-repeat: no-repeat;
     }
 
-    .payment__mobile-item-points {
+    .payment__mobile-item-points:before {
         background-image: url('../img/points.png');
+        background-repeat: no-repeat;
     }
 
-    .payment__mobile-item-yandex {
+    .payment__mobile-item-yandex:before {
         background-image: url('../img/yandex.png');
+        background-repeat: no-repeat;
     }
 
-    .payment__mobile-item-webmoney {
+    .payment__mobile-item-webmoney:before {
         background-image: url('../img/webmoney.png');
+        background-repeat: no-repeat;
         
     }
 
@@ -221,6 +238,7 @@
         background-color: #3fb34f;
         transition-duration: .2s;
         margin-bottom: 4%;
+        font-size: 25px;
     }
 
     .payment__btn-content:hover {
