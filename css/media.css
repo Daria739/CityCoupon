@@ -7,7 +7,7 @@
 
 
     .logo-pic {
-        width: 80%;
+        width: 70%;
     }
 
     .first-block {
@@ -46,7 +46,7 @@
     }
 
     .header__contacts {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .first-block__content {
@@ -105,7 +105,6 @@
 
     .form__block-title-mail {
         font-size: 36px;
-        line-height: 0.97;
         letter-spacing: -1.4px;
         text-align: left;
         color: #4b4b4b;
@@ -130,7 +129,7 @@
 
     .switcher__text {
         font-size: 17px;
-        margin-left: 50px;
+        max-width: 285px;
     }
 
     .block-form {
@@ -150,7 +149,6 @@
 
     .mobile-title {
         font-size: 36px;
-        line-height: 0.71;
         letter-spacing: -1.4px;
         text-align: left;
         color: #4b4b4b;
