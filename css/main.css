@@ -36,7 +36,7 @@ body {
     width: 100%;
     position: relative;
     
-    overflow-x:hidden; 
+        overflow-x:hidden; 
     /*min-width: 68.75rem;*/
 }
 
