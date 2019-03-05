@@ -1,7 +1,7 @@
-     
+
 //Счётчик товаров
-     
-$(document).ready(function() {
+
+$(document).ready(function () {
     $('.minus').click(function () {
         var $input = $(this).parent().find('input');
         var count = parseInt($input.val()) - 1;
@@ -17,5 +17,3 @@ $(document).ready(function() {
         return false;
     });
 });
-
-  

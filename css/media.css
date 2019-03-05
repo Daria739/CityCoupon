@@ -331,8 +331,84 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
     .first-block__item-desc {
-        font-size: 1.2rem;
+        font-size: 1rem;
+    }
+
+    .count-and-price {
+        width: 40%;
+    }
+
+    .first-block__item-info {
+        width: 60%;
+    }
+
+    .bonus {
+        font-size: .9rem;
+    }
+    .counter-section {
+        width: 1.8rem;
+        height: 1.8rem;
+        background-color: #f0f1f3;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        cursor: pointer;
+    
+    }
+    
+    .minus  {
+      font-size: 4.063rem;
+      font-weight: 300;
+      line-height: 1.15;
+      color: #4b4b4b;
+      margin-right: 0.438rem;
+    }
+    
+    .plus {
+        font-size: 2.313rem;
+        color: #4b4b4b;
+        margin-left: 0.438rem;
+    
+    }
+    
+    .counter-section-input {
+        width: 2.7rem;
+        height: 2rem;
+    
+        padding: 0.625rem;
+        border-radius: 5px;
+    
+        font-size: 1.25rem;
+        color: #343434;
+        outline: none;
+    }
+
+    .first-block__item-img {
+        margin-right: 1%;
+        width:98%;
+    }
+
+    .form__row {
+        flex-direction: column;
+    }
+
+    .form__block-input {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .form__block {
+        width: 100%;
+    }
+
+    .form__checkbox-title {
+        max-width: 10rem;
+        padding-top: 3%;
+        padding-bottom: 4%;
+        
     }
 }
